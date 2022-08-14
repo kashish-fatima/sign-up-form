@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="side-picture">
+            <img src="/assets/halie-west-25xggax4bSA-unsplash.jpg" alt="">
+        </div>
+
+        <div class="side-form">
+            <p>This is not a real online service! You know you need something like this in your
+                life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+            </p>
+
+            <p>You <em>know</em> you want to.</p>
+
+            <div class="main-form">
+                <p>Let's do this!</p>
+
+                <form action="" class="signup-form" onsubmit="formSubmit()">
+                    <div class="labels-inputs">
+                        <input type="text" name="firstname" placeholder="First Name">
+                        <input type="text" name="lastname" placeholder="Last Name">
+                        <input type="email" name="email" placeholder="Email">
+                        
+                        <input type="text" name="phone" placeholder="Phone Number">
+    
+                        <input id="pass" type="password" name="pass" placeholder="Password">
+                        
+                        <input id="confirmPass" type="password" name="confirm" placeholder="Confirm Password">
+                    </div>
+                    
+                    <input type="submit" value="Create Account">
+                    <p class="submit-message"></p>
+                </form>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
